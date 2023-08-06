@@ -1,0 +1,14 @@
+{
+  "restartable": "rs",
+  "ignore": ["node_modules/", "dist/"],
+  "execMap": {
+    "js": "node --inspect"
+  },
+  "watch": ["src/"],
+  "ext": "js,json",
+  "verbose": true,
+  "delay": 1000,
+  "events": {
+    "restart": "echo 'Server restarted due to changes'"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "my-strategy-pattern-project",
+  "version": "1.0.0",
+  "description": "An example of the Strategy Pattern in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "test": "jest"
+  },
+  "keywords": [
+    "node",
+    "strategy pattern",
+    "design pattern"
+  ],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/node": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "eslint": "^7.32.0",
+    "prettier": "^2.3.2",
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/tu-repositorio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tu-usuario/tu-repositorio/issues"
+  }
+}
